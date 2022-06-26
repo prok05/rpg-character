@@ -1,0 +1,28 @@
+.noCharacter {
+    min-height: 450px;
+    background-image: url(../../assets/svg/unknown.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 0;
+
+    .noCharacter__title {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .noCharacter__create {
+        margin: 0;
+        font-size: 32px;
+
+
+        .createBtn {
+            text-decoration: none;
+            color: #FFFFFF;
+            background-color: #000000;
+
+            &:hover {
+                background-color: #FFBA69;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

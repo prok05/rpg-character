@@ -1,0 +1,32 @@
+.attributeItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .attributeName {
+        margin-right: auto;
+    }
+
+    .attributeLvl {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .attributeBtn {
+        box-sizing: border-box;
+        background-color: #000000;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            color: #000000;
+            background-color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.create {
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .create__title {
+        margin: 0;
+        margin-bottom: 50px;
+        font-size: 32px;
+    }
+
+    .create__form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .create__input {
+            width: 200px;
+
+            box-sizing: border-box;
+            width: 100%;
+            height: 40px;
+
+            margin-right: 15px;
+            padding: 15px;
+
+            border: 2px solid black;
+            border-radius: 50px;
+        }
+
+        .create__btn {
+            box-sizing: border-box;
+            width: 45px;
+            height: 40px;
+
+            border: 2px solid black;
+            border-radius: 50%;
+
+            background-image: url(../../assets/svg/arrow.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: 65%;
+            background-color: #FFFFFF;
+
+            cursor: pointer;
+        }
+    }
+}

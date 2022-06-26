@@ -1,0 +1,39 @@
+@import './styles/normalize.scss';
+
+@font-face {
+    font-family: 'Play';
+    src: url('./assets/fonts/Play-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Play-Regular.woff') format('woff'),
+        url('./assets/fonts/Play-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Play';
+    src: url('./assets/fonts/Play-Bold.woff2') format('woff2'),
+        url('./assets/fonts/Play-Bold.woff') format('woff'),
+        url('./assets/fonts/Play-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: 'Play';
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 3px solid #000000;
+    border-radius: 35px;
+}

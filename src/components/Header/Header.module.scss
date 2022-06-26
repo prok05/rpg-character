@@ -1,0 +1,13 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+
+    background-color: #FFBA69;
+
+    .header__navigation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
