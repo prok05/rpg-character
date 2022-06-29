@@ -14,7 +14,7 @@ const Home = observer(() => {
                     {CharactersStore.characters.length ? <CharacterList /> : <NoCharacters />}
 
                     <div className={s.create}>
-                        <Link className={s.createBtn} to='/create'>Cоздать</Link>
+                        <Link className={s.createBtn} to='/rpg-character/create'>Cоздать</Link>
                         <span>|</span>
                         <UploadCharacter />
                     </div>

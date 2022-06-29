@@ -10,9 +10,9 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/create' element={<Create />} />
-          <Route path='/:id' element={<CharacterInfo />} />
+          <Route path='/rpg-character' element={<Home />} />
+          <Route path='/rpg-character/create' element={<Create />} />
+          <Route path='/rpg-character/:id' element={<CharacterInfo />} />
         </Routes>
       </div>
     </BrowserRouter>

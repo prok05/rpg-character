@@ -8,7 +8,7 @@ const Header = () => {
             <div className="container">
                 <nav className={s.header__navigation}>
                     <div className={s.header__logo}>
-                        <Link to='/'>
+                        <Link to='/rpg-character'>
                             <img src={logo} alt="Логотип" />
                         </Link>
                     </div>

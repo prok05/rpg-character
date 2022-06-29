@@ -44,7 +44,7 @@ const CreateForm = () => {
             },
         }
         CharactersStore.addCharacter(newCharacter);
-        navigate('/')
+        navigate('/rpg-character')
     }
 
     return (
