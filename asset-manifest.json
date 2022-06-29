@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rpg-character/static/css/main.adc7804d.css",
-    "main.js": "/rpg-character/static/js/main.106df29e.js",
+    "main.js": "/rpg-character/static/js/main.c3a8ef5d.js",
     "static/media/Play-Bold.ttf": "/rpg-character/static/media/Play-Bold.55d677751448efe68973.ttf",
     "static/media/Play-Regular.ttf": "/rpg-character/static/media/Play-Regular.b61ac22043445b32108d.ttf",
     "static/media/Play-Bold.woff": "/rpg-character/static/media/Play-Bold.52675c2f5ef9cf795a7f.woff",
@@ -15,10 +15,10 @@
     "index.html": "/rpg-character/index.html",
     "static/media/upgrade.svg": "/rpg-character/static/media/upgrade.523b434f3e19f9cc01b8.svg",
     "main.adc7804d.css.map": "/rpg-character/static/css/main.adc7804d.css.map",
-    "main.106df29e.js.map": "/rpg-character/static/js/main.106df29e.js.map"
+    "main.c3a8ef5d.js.map": "/rpg-character/static/js/main.c3a8ef5d.js.map"
   },
   "entrypoints": [
     "static/css/main.adc7804d.css",
-    "static/js/main.106df29e.js"
+    "static/js/main.c3a8ef5d.js"
   ]
 }
