@@ -59,14 +59,19 @@ const CreateForm = () => {
 
                 <div className={s.formBtns}>
                     <button
+                        className={s.formBtn}
                         disabled={step === 0}
                         onClick={() => setStep(prev => prev - 1)}>Назад
                     </button>
                     <button
+                        className={s.formBtn}
                         disabled={step === formSteps.length - 1}
                         onClick={() => setStep(prev => prev + 1)}>Далее
                     </button>
-                    <button onClick={handleSubmit}>Поглядеть</button>
+                    <button
+                        disabled={!name}
+                        className={s.formBtn}
+                        onClick={handleSubmit}>Создать</button>
                 </div>
             </div>
         </div>

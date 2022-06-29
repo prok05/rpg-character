@@ -2,6 +2,7 @@
   "name": "rpg-character",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://prok05.github.io/rpg-character",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -11,6 +12,7 @@
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "@types/uuid": "^8.3.4",
+    "gh-pages": "^4.0.0",
     "mobx": "^6.6.0",
     "mobx-react-lite": "^3.4.0",
     "node-sass": "^7.0.1",
@@ -26,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

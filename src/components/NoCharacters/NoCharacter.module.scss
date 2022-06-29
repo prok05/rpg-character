@@ -1,6 +1,7 @@
 .noCharacter {
-    min-height: 450px;
+    min-height: 200px;
     background-image: url(../../assets/svg/unknown.svg);
+    background-size: 150px;
     background-repeat: no-repeat;
     background-position: 80% 0;
 
@@ -10,19 +11,10 @@
     }
 
     .noCharacter__create {
+        width: 400px;
         margin: 0;
-        font-size: 32px;
-
-
-        .createBtn {
-            text-decoration: none;
-            color: #FFFFFF;
-            background-color: #000000;
-
-            &:hover {
-                background-color: #FFBA69;
-                color: #FFFFFF;
-            }
-        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }

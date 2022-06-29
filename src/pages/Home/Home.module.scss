@@ -1,18 +1,17 @@
-.formBody {
-    margin-bottom: 15px;
-}
-
-.formBtns {
+.create {
     display: flex;
+    width: 300px;
     justify-content: space-between;
+    align-items: center;
 
-    .formBtn {
+    .createBtn {
         padding: 5px 10px;
         color: #FFFFFF;
         background-color: #000000;
         cursor: pointer;
         border: none;
         border-radius: 5px;
+        text-decoration: none;
 
         &:hover {
             background-color: rgb(130, 130, 130);

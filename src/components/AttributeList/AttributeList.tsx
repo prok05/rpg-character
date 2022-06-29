@@ -1,5 +1,4 @@
 import { Dispatch, SetStateAction } from "react";
-import { IAttributes, ICharacter } from "../../types";
 import AttributeItem from "../AttributeItem/AttributeItem";
 import s from './AttributeList.module.scss';
 
